@@ -1,5 +1,7 @@
 pipeline {
-    agent 192.168.108.156 
+     agent {
+        label '192.168.108.156'
+    } 
     stages {
         stage('Build') { 
             steps {

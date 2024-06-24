@@ -1,6 +1,6 @@
 pipeline {
      agent {
-        label '192.168.108.156'
+        label 'agent-jenkins2'
     } 
     stages {
         stage('Build') { 
